@@ -28,6 +28,7 @@
 
         h3 {
             color: #848484;
+            border-bottom: 1px solid;
         }
     </style>
 </head>
