@@ -19,10 +19,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
         }
 
         h1 {
             color: #FFF;
+        }
+
+        h3 {
+            color: #848484;
         }
     </style>
 </head>
