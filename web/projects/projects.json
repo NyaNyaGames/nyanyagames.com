@@ -1,0 +1,32 @@
+{
+    "showcase_project": "minecat",
+    "projects": {
+        "minecat": {
+            "name": "",
+            "description": [
+                "The cat with a drill that mines and sells blocks to a duck in the shop. Seems logical, right?",
+                "This is a 2D game where you play as a cat that is stranded on an unknown planet. To escape the planet you need to get fuel for your rocket.",
+                "To reach greater depths you need to upgrade the drill with money you earned from selling mined blocks."
+            ],
+            "url": "https://svenar.itch.io/minecat",
+            "images": {
+                "logo": "minecat_logo.png",
+                "banner": "minecat_banner.png"
+            },
+            "tag": "game"
+        },
+        "boxbot": {
+            "name": "Box Bot!",
+            "description": [
+                "Your new robot has arrived and is ready to be programmed by you.<br />Use logic blocks to program the robot to execute the required task while making sure the robot stays safe in it's environment.<br />All programming is done from the robots remote terminal that shows the robots location and live feedback from the robots program.",
+                "Your task as the boss is to complete a set of tasks and deliver the crate(s) to the target(s) using logic blocks."
+            ],
+            "url": "https://svenar.itch.io/box-bot",
+            "images": {
+                "logo": "",
+                "banner": "boxbot_banner.png"
+            },
+            "tag": "gamejam"
+        }
+    }
+}
