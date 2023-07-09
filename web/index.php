@@ -181,7 +181,7 @@ $showcase_project = $projects_data["projects"][$projects_data["showcase_project"
                                         <p class="card-text"><?php print($line); ?></p>
                                     <?php } ?>
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <a href="#" class="btn btn-sm btn-outline-secondary" target="_blank">More info</a>
+                                        <a href="<?php print($project["url"]); ?>" class="btn btn-sm btn-outline-secondary" target="_blank">More info</a>
                                         <small class="text-body-secondary text-muted"><?php print($project["tag"]); ?></small>
                                     </div>
                                 </div>
