@@ -27,6 +27,20 @@
                 "banner": "boxbot_banner.png"
             },
             "tag": "gamejam"
+        },
+        "mages-n-monsters": {
+            "name": "Mages 'n Monsters",
+            "description": [
+                "Mages 'n Monsters is a 3D top-down bullet-hell shooter!",
+                "This is no ordinary shoot 'em up game, but pure chaos Test how good you really are.",
+                "You, the big mage, lives in a dungeon together with little mage. But just before you want to sleep little mage hears a noise coming from the dungeon and you decide to investigate. Quickly you find out that the dungeon is filled with scary monsters and you care using your magic to fight them. But little mage was captured and it's your task to save the little one. The story ends with an intense boss-fight!"
+            ],
+            "url": "https://svenar.itch.io/mages-n-monsters",
+            "images": {
+                "logo": "",
+                "banner": "mages-n-monsters_banner.png"
+            },
+            "tag": "gamejam"
         }
     }
 }
