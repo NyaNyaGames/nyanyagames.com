@@ -4,26 +4,8 @@ $projects_data_path = __DIR__ . "/projects/projects.json";
 $base_project_images_path = "/projects/images/";
 
 $projects_data = json_decode(file_get_contents($projects_data_path), true);
-// for ($i = 0; $i < count($projects_data); $i++) {
-//     $projects_data[$i]["images"]["logo"] = $base_project_images_path . $projects_data[$i]["images"]["logo"];
-//     $projects_data[$i]["images"]["banner"] = $base_project_images_path . $projects_data[$i]["images"]["banner"];
-// }
-
 
 $showcase_project = $projects_data["projects"][$projects_data["showcase_project"]];
-// $showcase_project = array(
-//     "name" => "Test showcase",
-//     "description" => array(
-//         "This is a test showcase project line 1",
-//         "This is a test showcase project line 2",
-//         "This is a test showcase project line 3",
-//     ),
-//     "url" => "https://nyanyagames.com",
-//     "images" => array(
-//         "logo" => "minecat_logo.png",
-//         "banner" => "minecat_banner.png"
-//     )
-// );
 
 ?>
 
@@ -39,6 +21,7 @@ $showcase_project = $projects_data["projects"][$projects_data["showcase_project"
     <meta name="description" content="NyaNya Games">
 
     <link href="/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="/css/style.css" rel="stylesheet">
 
 </head>
@@ -117,7 +100,7 @@ $showcase_project = $projects_data["projects"][$projects_data["showcase_project"
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4>Contact</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Nothing here yet</a></li>
+                            <li><a href="mailto:info@nyanyagames.com" class="text-white"><i class="fa-solid fa-envelope"></i> info@nyanyagames.com</a></li>
                         </ul>
                     </div>
                 </div>
